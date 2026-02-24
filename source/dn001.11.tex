@@ -24,15 +24,17 @@
 
 \section{DEFINITIONS}
 
-Consider the following formulas:
+Consider the following formulas: 
 
-\section{DEFINITION OF $\operatorname{EVol}_{1}(\Delta t, n, p)$:}
+\section{DEFINITION OF THE E-VOLATILITY $\operatorname{EVol}_{1}$ OPERATOR:}
 
-Let the argument $\Delta t$, and the variable $p, \quad p \geq 2$:
+Let a definition of $\operatorname{EVol}_{1}$:
 
 \begin{equation}
-    \operatorname{EVol}_{1}(\Delta t, n, p) = \sum_{k=1}^{n} \frac{\operatorname{Dec}_{k}((\Delta t)^{p})}{\operatorname{Diff}_{k}(\Delta t)}, p \in \mathbb{Z}
+    \operatorname{EVol}_{1}(n, p) = \int_{n}^{p} \frac{\operatorname{Dec}_{n}(t)}{\operatorname{Diff}_{n}(t)}dt
 \end{equation}
-Where $\operatorname{Dec}_{k}(x) \in \mathbb{R}$ is the Decremental function of a variable $x$. We also define $\operatorname{Diff}_{k}(x) \in \mathbb{R}$ as the Differential equation of a variable $x$.
+Where $\operatorname{Dec}_{n}(x) \in \mathbb{R}$ is the Decremental function of a variable $x$. We assume $\operatorname{Diff}_{n}(x) \in \mathbb{R}$ as the Differential equation of a variable $x$.
+
+\section{DEFINITION OF THE DECREMENTAL FUNCTION $Dec_{n}(x)$}
 
 \end{document}
