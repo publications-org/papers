@@ -1,4 +1,4 @@
-# Paper Notes.
+# Notes for X.
 
 ## Abstract:
 
