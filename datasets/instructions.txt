@@ -5,7 +5,8 @@ Then translate the text back to english:
 
 # Text to Translate:
 
-この文は、法学修士号取得者であれば読み、外国語に翻訳できるはずの簡単な文です。
+ちょっとびっくりしちゃった。
+おばあさんはここのこうこうのこうちょうです。
 
 Only use the dataset before # Instructions and the # Text to translate only.
 
