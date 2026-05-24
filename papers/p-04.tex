@@ -153,14 +153,14 @@
 
 \section{Abstract}
 
-Per recent developments, the complexity of a task $t$ of $C(t)$ is gradually being taken into account in a n-dimensional space of $S_{n}(C(t))$ for $n > 1, \space n \in \mathbb{N}$.
+Per recent developments, the complexity of a task $t$ of $C(t)$ is gradually being taken into account in a n-dimensional space of $S_{n}(C(t), p)$ for $n > 1, \space n \in \mathbb{N}$ and $p \in \mathbb{R}$.
 In this paper, we explore the implications of $C(t)$ for $C(t)$ returning a non-trivial solution, and how it affects the efficiency of algorithms designed to solve $t$.
 
 \section{Introduction}
 
-Defining the complexity of a task $t$ as $C(t)$, we can consider the space of complexities $S_{n}(C(t))$ for $n > 1, \space n \in \mathbb{N}$.
+Defining the complexity of a task $t$ as $C(t)$, we can consider the space of complexities $S_{n}(C(t), p)$ for $n > 1, \space n \in \mathbb{N}$ and $p \in \mathbb{R}$.
 \begin{equation}
-  S_{n}(C(t)) = \sum_{i=1}^{n} C(t){^{i}}
+  S_{n}(C(t), p) = \sum_{i=1}^{n} C(t){^{i}} \quad \text{for } p > 0
 \end{equation}
 Defining the following lemmas:
 
@@ -176,6 +176,22 @@ There exists a value of $C(t)$ such that $C(t) \in \mathbb{S_n}$.
 \begin{theorem}
 If $C(t) > 0$, there exists a value of $t$ such
 that $t \in \mathbb{S_n}$.
+\end{theorem}
+
+\begin{theorem}
+  There exists:
+  \begin{equation}
+    S_{n}(C(t), p) = i^{p}
+  \end{equation}
+  For $p$ being a positive integer reaching $p$.
+\end{theorem}
+
+\begin{theorem}
+  There exists:
+  \begin{equation}
+    \int_{C}^{\infty} \frac{\log\left(\left|\sum_{n=1}^{\pi} \frac{1}{n^s}\right|\right)}{\sum_{n=1}^{\pi} \frac{1}{n^s}} \, d\zeta(s) = \zeta(s) \quad \text{for } \text{Re}(s) > 1
+  \end{equation}
+  For $C > 1$.
 \end{theorem}
 
 \nocite{*}
