@@ -37,7 +37,7 @@ The document illustrates two theorems written down for note-writing purposes.
 
 \section{Theorems and Proofs}
 \begin{theorem}
-There exists:
+There exists a converging value $x$ in:
 \begin{equation}
     \mathbb{S}_{n} > \mathbb{S}_{n-1} \xrightarrow{} x
 \end{equation}
@@ -48,11 +48,19 @@ s.t.:
 \end{theorem}
 
 \begin{theorem}
-There exists a value $n$:
+Per [3.1], there exists a value $n$ that satisfies:
 \begin{equation}
     e < n \leq \pi
 \end{equation}
-For $n \in \mathbb{R}$.
+For $n \in \mathbb{R}$, and $n > e$.
+\end{theorem}
+
+\begin{theorem}
+    There exists a value in $\mathbb{R}$ that satisfies:
+    \begin{equation}
+        \sum_{p=0}^{\pi} \frac{p!}{(\int_{p}^{n} (p \cdot n) dt)!}
+    \end{equation}
+    For $n$, $1 < n < \pi$ in $\mathbb{R}$.
 \end{theorem}
 
 \nocite{*}
