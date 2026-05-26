@@ -153,17 +153,17 @@
 
 \section{Theorems}
 \begin{theorem}
-  There exists a solution in $\mathbb{C}$:
+  There exists a solution in $\mathbb{R}$:
   \begin{equation}
-    \oint \frac{\ln(\frac{1}{n^s})}{\frac{1}{n^s}}ds = -n^{(s^2)}+\frac{n^s}{\ln \left(n\right)}+C
+    \oint \frac{\ln(\frac{1}{n^s})}{\frac{1}{n^s}}ds = -n^s \cdot s+\frac{n^s}{\ln \left(n\right)}+C
   \end{equation}
   that has the following limit:
   \begin{equation}
-    \lim _{x\to \infty }\left(-n^{s^2}+\frac{n^s}{\ln \left(n\right)}+C\right)
+    \lim _{x\to \infty } -n^s \cdot s+\frac{n^s}{\ln \left(n\right)}+C
   \end{equation}
   which when derived, evaluates to:
   \begin{equation}
-    \lim _{x\to \infty }\left(-n^{s^2}+\frac{n^s}{\ln \left(n\right)}+C\right) = \oint \frac{\ln(\frac{1}{n^s})}{\frac{1}{n^s}}ds
+    \lim _{x\to \infty } -n^s \cdot s+\frac{n^s}{\ln \left(n\right)}+C = \oint \frac{\ln(\frac{1}{n^s})}{\frac{1}{n^s}}ds
   \end{equation}
 \end{theorem}
 
@@ -206,6 +206,15 @@
   \end{equation}
   [1.4] holds for $x, t \in \mathbb{R}, \quad \pi < t, x, z < \infty$.
 \end{theorem}
+
+\begin{theorem}
+  There exists a following solution:
+  \begin{equation}
+    \lim _{s\to \:\pi }\left(-n^s+\frac{n^s}{\ln \left(n\right)}+C\right)
+  \end{equation}
+  for a function $F(s) \in \mathbb{R}$ that is greater than one and approaching $\pi$.
+\end{theorem}
+
 \nocite{*}
 
 \bibliographystyle{acm}
