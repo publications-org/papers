@@ -155,7 +155,7 @@
 \begin{theorem}
   There exists in $\mathbb{R}$ a solution:
   \begin{equation}
-    h(n, s) \coloneqq \oint \frac{\ln(\frac{1}{n^s})}{\frac{1}{n^s}} \space ds \coloneq -n^s \cdot s+\frac{n^s}{\ln \left(n\right)}+C
+    h(n, s) \coloneqq \oint \frac{\ln(\frac{1}{n^s})}{\frac{1}{n^s}}  \coloneq -n^s \cdot s+\frac{n^s}{\ln \left(n\right)}+C
   \end{equation}
   if the following limit converges towards $+\infty$, then:
   \begin{equation}
@@ -166,11 +166,11 @@
 \begin{theorem}
   There exists for $(n < \sum_{d=n}^{p} \frac{d}{^p} < p) \in \mathbb{R}$:
   \begin{equation}
-    z \coloneq \lim _{n\:\to \infty }\:\sum_{d=n}^{p} \frac{d}{^p}
+    z \coloneq \lim _{n\:\to \pi }\:(\sum_{d=1}^{p} \frac{d}{^p})^{n}
   \end{equation}
   If and only if:
   \begin{equation}
-    z \implies y \pm \frac{1}{p}
+    z \implies \pm \left(\frac{p+1}{2}\right)^{\pi }
   \end{equation}
   for $y \in \mathbb{R}$, $y > 0$. If and only if: $p \in \mathbb{R}$.
 \end{theorem}
@@ -178,17 +178,28 @@
 \begin{theorem}
   There exists  in $\mathbb{R}$ the following:
   \begin{equation}
-    c(p) \coloneq \frac{p!}{\ln \left(p\right)!}
+    eq(x) = \left(\frac{p+1}{2}\right)^{x}
   \end{equation}
-  If and only if: $\ln(p)=p!$.
+  That admits a limit of:
+  \begin{equation}
+    \lim_{x \to e} \left(\frac{p+1}{2}\right)^{x } = eq(x)
+  \end{equation}
+  When assigning the power $\pi$ to $x$.
 \end{theorem}
 
 \begin{theorem}
   Let the following intgeral with the defined values: $z$, $x$, $y$:
   \begin{equation}
-    \sigma(x, y, z) \coloneq \int \frac{f'(x \cdot y \cdot z)}{f''(x \cdot y \cdot z)} \space dt
+    \sigma(x, y, z) \coloneq \int \frac{f'(x \cdot y \cdot z)}{f''(x \cdot y \cdot z)}
   \end{equation}
-  if for $x, y, z \in \mathbb{R}; \quad L < \sigma(x, y, z) < H$, we have solutions that converges towards $H$.
+  if the following holds:
+  \begin{equation}
+    f\:''\left(x\right)= f\:'\left(x\right)=f\left(x\right)=\frac{1}{x}
+  \end{equation}
+  then for $x, y, z \in \mathbb{R}; \quad L < \sigma(x, y, z) < H$, we have solutions that converges towards $H$ of the following:
+  \begin{equation}
+    \:x\:=\frac{\pi}{e};\:y\:=\:\pi \:;\:z\:= \operatorname{e};\:\:f\left(x\right)\:\ne 0
+  \end{equation}
 \end{theorem}
 
 \begin{theorem}
@@ -202,7 +213,7 @@
 \begin{theorem}
   Let the product of an integral $\in \mathbb{R}$ with the following values from $a$, $\dots$, to $z$:
   \begin{equation}
-    \alpha(a, \dots, z) \coloneq \int \lambda(a, \dots, z)! \space ds
+    \alpha(a, \dots, z) \coloneq \int \lambda(a, \dots, z)! 
   \end{equation}
   If and only if converges towards:
   \begin{equation}
