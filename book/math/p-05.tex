@@ -142,9 +142,9 @@
 \section{Equations \& Theorems}
 
 \begin{definition}
+	Let the following be defined for any domain D:
 	\begin{align*}
-		\pm B &= \frac{\operatorname{d}}{\operatorname{dx}} \frac{x}{n-\ln (p!)+x}\\
-		0 &= \frac{\operatorname{d}}{\operatorname{dx}} \frac{x}{n-\ln (p!)+x} - B
+		\pm B &= \frac{\operatorname{d}}{\operatorname{dx}} \frac{x}{n-\ln (p!)+x} \in \mathbb{D}; \quad B \neq 0;
 	\end{align*}
 \end{definition}
 
@@ -154,15 +154,16 @@ Assume $\rho(n, p, s, x) \in \mathbb{R}$:
 \pm C + \rho(n, p, s, x) &= \frac{\int (\frac{p}{n^{s}}) \text{ } \operatorname{dx}}{\frac{p}{n^{s}}! }\\
 \pm C &= \frac{ \frac{\int (\frac{p}{n^{s}}) \text{ } \operatorname{dx}}{\frac{p}{n^{s}}! } }{\rho(n, p, s, x)}
 \end{align*}
-Assuming $x = \pi$:
+Now posing the following limit:
 \begin{equation}
   \lim_{x \to \pi} \rho(n, p, s, x) \to K; \quad K = \pm \frac{x p\pm Cn^s}{n^s\frac{p}{n^s}!}
 \end{equation}
-If $x \neq 0$. Therefore:
+Then for any domain D:
 \begin{align*}
 	\pm K \pm C &= \pm Z\\
-	\pm K &= \frac{\pm Z}{\pm C}
+	\pm K &= \frac{\pm Z}{\pm C}; \quad K=\pm \frac{x p\pm Cn^s}{n^s\frac{p}{n^s}!} \in \mathbb{D}^{+};
 \end{align*}
+
 \end{theorem}
 
 \nocite{*}

@@ -155,20 +155,23 @@
 \begin{theorem}
   There exists for $h(n, s)$ a solution of:
   \begin{align*}
-    h(n, s) &= \oint_{C} \frac{\ln(Y)}{Y} = -n^s s+\frac{n^s}{\ln \left(n\right)}\pm C; \quad Y = \frac{1}{n^s};\\
-     \pm D &= \lim _{x\to \infty } -n^s s+\frac{n^s}{\ln \left(n\right)}\pm C;\\
-     \frac{\pm D}{\pm C} &= \frac{\lim _{x\to \infty } -n^s s+\frac{n^s}{\ln \left(n\right)}}{\pm C}; \quad (\pm C) \neq 0
+    h(n, s) &= \oint_{C} \frac{\ln(Y)}{Y} = -n^s s+\frac{n^s}{\ln \left(n\right)}\pm C; \quad Y = \frac{1}{n^s};
+  \end{align*}
+  Such that. Assuming for a variable $\pm D$. Let:
+  \begin{align*}
+  	\pm D &= \lim _{x\to \infty } -n^s s+\frac{n^s}{\ln \left(n\right)}\pm C; \quad \pm D \neq 0;\\
+  	\frac{\pm D}{\pm C} &= \frac{\lim _{x\to \infty } -n^s s+\frac{n^s}{\ln \left(n\right)}}{\pm C}; \quad \pm C \neq 0; \quad \frac{\pm D}{\pm C} \neq 0;
   \end{align*}
 \end{theorem}
 
 \begin{theorem}
   There exists for $z$:
   \begin{equation}
-    z = \lim _{n\:\to \pi }\:(S)^{n}; \quad S = \sum_{d=1}^{p} \frac{d}{^p}
+    z = \lim _{n\:\to \infty }\:(S)^{n}; \quad S = \sum_{d=1}^{p} \frac{d!}{^p}; \quad S \neq 0;
   \end{equation}
   Therefore:
   \begin{equation}
-    z \to \pm \left(\frac{p+1}{2}\right)^{\pi }
+    z \to \pm \left(\frac{p+1}{2}\right)^{\infty}
   \end{equation}
   If and only if $y \in \mathbb{R}$, $y > 0$. And if and only if: $p \in \mathbb{R}$.
 \end{theorem}
@@ -180,27 +183,22 @@
   \end{equation}
   If and only If:
   \begin{align*}
-    \lim_{x \to \operatorname{e}} \pm \operatorname{eq}(x) = \operatorname{eq}(x)\\
-    \frac{ \lim_{x \to \operatorname{e}} \pm \operatorname{eq}(x)}{\operatorname{eq}(x)} = \frac{\operatorname{eq}(x)}{\operatorname{eq}(x)} = \frac{1}{1}
+    \lim_{x \to \operatorname{e}} \pm \operatorname{eq}(x) &= \operatorname{eq}(x)\\
+    \frac{ \lim_{x \to \infty} \pm \operatorname{eq}(x)}{\operatorname{eq}(x)} &= \frac{\operatorname{eq}(x)}{\operatorname{eq}(x)}; \quad \operatorname{eq}(x) \neq 0;
   \end{align*}
-  Therefore:
-  \begin{align*}
-	\operatorname{eq}(x) &= \pm \left(\frac{p+1}{2}\right)^{x}
-  \end{align*}
-  Now assuming a value $K$:
+  Therefore. Now assuming a value $K$:
   \begin{align*}
 \frac{\operatorname{eq}(x)}{\pm \left(\frac{p+1}{2}\right)^{x}} &= \pm K\\
-\int \frac{\operatorname{eq}(x)}{\pm \left(\frac{p+1}{2}\right)^{x}} \operatorname{dx} &= \pm K\\
-\frac{\int \frac{\operatorname{eq}(x)}{\pm \left(\frac{p+1}{2}\right)^{x}} \operatorname{dx}}{\pm K} &= 0; \pm K \neq 0\\
+\int \frac{\operatorname{eq}(x)}{\pm \left(\frac{p+1}{2}\right)^{x}} \operatorname{dx} &= \pm K;
   \end{align*}
   Therefore:
   \begin{equation}
-  	\frac{\int \frac{\operatorname{eq}(x)}{\pm \left(\frac{p+1}{2}\right)^{x}} \operatorname{dx}}{\pm K} < \int \frac{\operatorname{eq}(x)}{\pm \left(\frac{p+1}{2}\right)^{x}} \operatorname{dx} < \pm K
+  	\frac{\int \frac{\operatorname{eq}(x)}{\pm \left(\frac{p+1}{2}\right)^{x}} \operatorname{dx}}{\pm K} < \int \frac{\operatorname{eq}(x)}{\pm \left(\frac{p+1}{2}\right)^{x}} \operatorname{dx}
   \end{equation}
 \end{theorem}
 
 \begin{theorem}
-  For $\sigma(x, y, z)$. Then
+  For $g(x, y, z)$. Then.
   \begin{equation}
     \sigma(x, y, z) = \int \frac{f'(x y z)}{f''(x y z)}
   \end{equation}
@@ -214,12 +212,13 @@
   \end{equation}
   That equals:
   \begin{equation}
-    C = (\sigma(x, y, z))^{2}
+    f(x) = (g(x, y, z))^{2}
   \end{equation}
-  Therefore:
-  \begin{equation}
-    \frac{C}{\pm \sigma(x, y, z)} = \pm \sigma(x, y, z)
-  \end{equation}
+  Therefore by dividing both sides by $g(x, y, z)$:
+  \begin{align*}
+    \frac{f(x)}{-g(x, y, z)} &= g(x, y, z)\\
+    \frac{g(x, y, z))^{2}}{-g(x, y, z)} &= g(x, y, z)
+  \end{align*}
 \end{theorem}
 
 \begin{theorem}
@@ -227,19 +226,20 @@
   \begin{align*}
     U(s) &= \lim _{s\to \:\pi } -n^s+\frac{n^s}{\ln \left(n\right)}\pm C\\
     \frac{U(s) }{\pm C} &= \lim _{s\to \:\pi } -n^s+\frac{n^s}{\ln \left(n\right)}\\
-    \pm \frac{n^s}{\ln \left(n\right)} + \frac{U(s) }{\pm C} &= \lim _{s\to \:\pi } -n^s
+    - \frac{n^s}{\ln \left(n\right)} + \frac{U(s) }{\pm C} &= \lim _{s\to \:\pi } -n^s; \quad \ln(1) \neq \ln(n) \wedge \ln(n) \neq 0;
   \end{align*}
 \end{theorem}
 
 \begin{theorem}
-  For:
+  There exists for:
   \begin{equation}
-    \alpha(a, \dots, z) = \int \lambda(a, \dots, z)! 
+    a(a, \dots, z) = \int b(a, \dots, z)! 
   \end{equation}
   If and only If:
   \begin{equation}
-    \lim_{x \to 0} \alpha(a, \dots, z) = +\infty
+    \lim_{b(a, \dots, z)! \to 0} a(a, \dots, z)
   \end{equation}
+  Converges.
 \end{theorem}
 
 \begin{theorem}
