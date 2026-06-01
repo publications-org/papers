@@ -228,6 +228,45 @@ Then. There exists a solution such that:
 \end{align*}
 \end{theorem}
 
+\begin{definition}
+	Let the following identity:
+	\begin{align*}
+		\frac{\operatorname{d}}{\operatorname{dx}} \frac{\sin(x)}{\arcsin(x))}&=y\\
+		\frac{\operatorname{d}}{\operatorname{dx}} \frac{1}{\arcsin(x))} &= \sin(x) + y\\
+		-\sin(x)+\frac{\operatorname{d}}{\operatorname{dx}}\frac{1}{\arcsin(x))}&=y\\
+		\frac{\operatorname{d}}{\operatorname{dx}}\frac{1}{\arcsin(x))}&=\frac{y}{-\sin(x)}; \quad y \neq 0; \quad y \in \mathbb{D}^{+}
+	\end{align*}
+\end{definition}
+
+\begin{definition}
+	Let a variable $\Delta x$, and assuming a function $\gamma(x)$:
+	\begin{align*}
+	\Delta x &=	\frac{\frac{\operatorname{d}}{\operatorname{dx}}\frac{1}{\arcsin(x))}}{\gamma(x)} + K;
+	\end{align*}
+	The difference over $K$ would be:
+	\begin{align*}
+		\frac{\Delta x}{K} &= \frac{\frac{\operatorname{d}}{\operatorname{dx}}\frac{1}{\arcsin(x))}}{\gamma(x)}; \quad K \neq 0; 
+	\end{align*}
+	The opposite value of $K$ would be:
+	\begin{align*}
+		\Delta x &=	\frac{\frac{\operatorname{d}}{\operatorname{dx}}\frac{1}{\arcsin(x))}}{\gamma(x)} + K;\\
+		-K + \Delta x &=	\frac{\frac{\operatorname{d}}{\operatorname{dx}}\frac{1}{\arcsin(x))}}{\gamma(x)};\\
+	- K &= \frac{\frac{\operatorname{d}}{\operatorname{dx}}\frac{1}{\arcsin(x))}}{\gamma(x) \Delta x}; \quad K \neq 0; 
+	\end{align*}
+	Moreover. We could go on:
+	\begin{align*}
+		\frac{\frac{\operatorname{d}}{\operatorname{dx}}\frac{1}{\arcsin(x))}}{\gamma(x) \Delta x} &= -K;\\
+		\frac{\frac{\operatorname{d}}{\operatorname{dx}}\frac{1}{\arcsin(x))}}{\Delta x} &= -K \gamma(x);\\
+		\frac{\frac{\operatorname{d}}{\operatorname{dx}}\frac{1}{\arcsin(x))}}{1} &= -K \gamma(x)\Delta x;\\
+		\frac{\operatorname{d}}{\operatorname{dx}}\frac{1}{\arcsin(x))} &= -K \gamma(x)\Delta x;\\
+		&= -K \gamma(x)\Delta x \in \mathbb{R}^{+};
+	\end{align*}
+	Thus:
+	\begin{align*}
+		\Delta x &= \frac{\frac{\operatorname{d}}{\operatorname{dx}}\frac{1}{\arcsin(x))}}{\gamma(x) \Delta x} = \frac{\operatorname{d}}{\operatorname{dx}}\frac{1}{\arcsin(x))} \gamma(x)\Delta x; \quad \gamma(x) \neq 0;
+	\end{align*}
+\end{definition}
+
 \nocite{*}
 
 \bibliographystyle{acm}
