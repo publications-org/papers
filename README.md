@@ -1,7 +1,5 @@
 # Amlal's Working Book
 
-!\[https://doi.org/10.5281/zenodo.20497750](https://doi.org/10.5281/zenodo.20497750)
-
 ## 
 
 ## Abstract
