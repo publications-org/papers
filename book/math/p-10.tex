@@ -1,4 +1,4 @@
-\documentclass[10pt, twocolumn]{article}
+\documentclass[10pt]{article}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -29,47 +29,27 @@
 
 \begin{document}
 	
-	\twocolumn[{%
-		\maketitle
-		\vspace{-0.5em}
-		\vspace{0.8em}
-		\rule{\linewidth}{0.4pt}
-		\vspace{1em}
-	}]
+\maketitle
+\vspace{-0.5em}
+\vspace{0.8em}
+\rule{\linewidth}{0.4pt}
+\vspace{1em}
 	
 	\section{Equations \& Definitions}
 	
 	\begin{definition}
-		Suppose the following:
-		\begin{align*}
-			l + r &\leq n - 1;\\
-			r &\leq \frac{n - 1}{2}.
-		\end{align*}
-		If and only If. Solving for $r.$
-		\begin{align*}
-			r &\leq \frac{\frac{n - 1}{2} - 4}{2} \leq \frac{n - 1}{2};\\
-			\frac{\frac{n - 1}{2} - 4}{2} &\leq \frac{n - 1}{2}\\
-			\frac{\frac{n - 1}{2} - 5 + n}{4} &\leq 0.
-		\end{align*}
-		Assuming for $n=2.$
-		\begin{align*}
-			\frac{\frac{1}{2} +3}{4} &= \frac{875}{1000}.
-		\end{align*}
-	\end{definition}
-	
-	\begin{definition}
-		If and only If. For:
+		For:
 		\begin{align*}
 			\sqrt{2}+2&=\sqrt{2} + x;\\
 			2\sqrt{2}+2 &=x;\\
 			2(\sqrt{2} + 1) &= x;
 		\end{align*}
-		If and only If. We can solve for $l=x=2(\sqrt{2} + 1).$
+		We can solve for $l=x=2(\sqrt{2} + 1).$
 		\begin{align*}
 			l + r &\leq n - 1;\\
 			2(\sqrt{2} + 1) + r &\leq n - 1.
 		\end{align*}
-		Assuming $r \in \mathbb{R}.$
+		Now solving for $r \in \mathbb{D}^{+}.$
 		\begin{align*}
 			2(\sqrt{2} + 1) + \frac{\frac{n - 1}{2} - 4}{2}  &\leq \frac{n - 1}{2} + n - 1;\\
 			2(\sqrt{2} + 1) + \frac{\frac{n - 1}{2} - 4}{2} - \frac{n - 1}{2}; &\leq n - 1.
@@ -79,5 +59,6 @@
 	\nocite{*}
 	
 	\bibliographystyle{acm}
+	\bibliography{A_Course_of_Pure_Mathematics, General_Theory_Dirichlet_Series, Riemann}
 	
 \end{document}

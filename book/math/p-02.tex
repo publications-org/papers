@@ -1,5 +1,5 @@
 
-\documentclass[10pt, twocolumn]{article}
+\documentclass[10pt]{article}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -27,23 +27,26 @@
 
 \begin{document}
 
-\twocolumn[{%
-  \maketitle
-  \vspace{-0.5em}
-  \vspace{0.8em}
-  \rule{\linewidth}{0.4pt}
-  \vspace{1em}
-}]
+\maketitle
+\vspace{-0.5em}
+\vspace{0.8em}
+\rule{\linewidth}{0.4pt}
+\vspace{1em}
 
 \section{Equations \& Theorems}
 \begin{theorem}
     There exists:
     \begin{align*}
-        \frac{\int (np) \text{ } \operatorname{dp}}{\int (px) \text{ } \operatorname{dx}} &= \frac{p^2n+2C}{px^2+2C} \in \mathbb{D}^{+};
+        \frac{\int (np) \text{ } \operatorname{dp}}{\int (px) \text{ } \operatorname{dx}} &= \frac{p^2n+2C}{px^2+2C} \in \mathbb{D}^{+}.
     \end{align*}
-    Therefore by dividing by $\int (px) \text{ } \operatorname{dx}$:
+    That satisfies:
     \begin{align*}
-        \int (np) \text{ } \operatorname{dp} &= \frac{p^2n+2C}{px^2+2C} \int (px) \text{ } \operatorname{dx}
+        \int (px) \operatorname{dp} &= \int (np) \operatorname{dx} \frac{p^2n+2C}{px^2+2C};\\\\
+        px^2+2C &= \int (np) \text{ } \operatorname{dp};\\
+        \int (px) \operatorname{dp} &= px^2+2C \frac{p^2n+2C}{px^2+2C};\\
+        \int (px) \operatorname{dp} &= p^2n+2C;\\\\
+        \frac{p^2n+2C}{px^2+2C} &= \frac{p^2n+2C}{px^2+2C};\\
+        \frac{p^2n+2C}{px^2+2C} - \frac{p^2n+2C}{px^2+2C} &= 0.
     \end{align*}
 \end{theorem}
 

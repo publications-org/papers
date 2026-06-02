@@ -1,7 +1,7 @@
 % AUTHOR: Amlal El Mahrouss
 % PURPOSE: DN001.08: Notes for Several Formulas.
 
-\documentclass[10pt, twocolumn]{article}
+\documentclass[10pt]{article}
 \usepackage{graphicx}
 \usepackage{listings}
 \usepackage{amsmath,amssymb,amsthm}
@@ -131,40 +131,26 @@
 
 \begin{document}
 
-\twocolumn[{%
   \maketitle
-  \vspace{-0.5em}
-  \vspace{0.8em}
-  \rule{\linewidth}{0.4pt}
-  \vspace{1em}
-}]
+\vspace{-0.5em}
+\vspace{0.8em}
+\rule{\linewidth}{0.4pt}
+\vspace{1em}
 
 \section{Equations \& Theorems}
 
-\begin{theorem}
+\begin{definition}
 	Let the following be defined for any domain D:
-	\begin{align*}
-		\pm B &= \frac{\operatorname{d}}{\operatorname{dx}} \frac{x}{n-\ln (p!)+x} \in \mathbb{D}; \quad \pm B \neq 0;
-	\end{align*}
-\end{theorem}
-
-\begin{theorem}
-Assume $\rho(n, p, s, x) \in \mathbb{R}$:
 \begin{align*}
-\pm C + \rho(n, p, s, x) &= \frac{\int (\frac{p}{n^{s}}) \text{ } \operatorname{dx}}{\frac{p}{n^{s}}! }\\
-\pm C &= \frac{ \frac{\int (\frac{p}{n^{s}}) \text{ } \operatorname{dx}}{\frac{p}{n^{s}}! } }{\rho(n, p, s, x)}
+	C + F(n, p, s, x) &= \frac{\int (\frac{p}{n^{s}}) \text{ } \operatorname{dx}}{\frac{p}{n^{s}}! };\\
+	C (n^{s}!) + F(n, p, s, x)(n^{s}!) &= \frac{ {\int (\frac{p}{n^{s}}) \text{ } \operatorname{dx}}{p!}}{p! (n^{s}!)};\\
+	C (n^{s}!) &= \frac{ {\int (\frac{p}{n^{s}}) \text{ } \operatorname{dx}}{p!}}{p! (n^{s}!)} - F(n, p, s, x)(n^{s}!);\\
+		C (n^{s}!) &= \int (\frac{p}{n^{s}}) \text{ } \operatorname{dx}{p!} - F(n, p, s, x)(n^{s}!) p! (n^{s}!);\\\\
+	C (n^{s}!) -\int (\frac{p}{n^{s}}) \text{ } \operatorname{dx} &= p! - F(n, p, s, x)(n^{s}!) p! (n^{s}!);\\
+	-\int (\frac{p}{n^{s}}) \text{ } \operatorname{dx} &= - p! F(n, p, s, x)(n^{s}!) p! (n^{s}!) - C (n^{s}!);\\
+	-\int (\frac{p}{n^{s}})\text{ } \operatorname{dx} &=  - p! F(n, p, s, x)p!(n^{s}!)^{2} - C (n^{s}!) \in \mathbb{D}.
 \end{align*}
-Now posing the following limit:
-\begin{equation}
-  \lim_{x \to \pi} \rho(n, p, s, x) \to K; \quad K = \pm \frac{x p\pm Cn^s}{n^s\frac{p}{n^s}!}
-\end{equation}
-Then for any domain D:
-\begin{align*}
-	\pm K \pm C &= \pm Z\\
-	\pm K &= \frac{\pm Z}{\pm C}; \quad K=\pm \frac{x p\pm Cn^s}{n^s\frac{p}{n^s}!} \in \mathbb{D}^{+};
-\end{align*}
-
-\end{theorem}
+\end{definition}
 
 \nocite{*}
 
