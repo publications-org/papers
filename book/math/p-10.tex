@@ -1,0 +1,83 @@
+\documentclass[10pt, twocolumn]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{textcomp}
+\usepackage{amsthm}
+\usepackage{mathtools}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\title{%
+	\vspace{-1.5em}%
+	\large\textbf{Additional Definitions}%
+}
+
+\author{A. E. Mahrouss\\amlal@nekernel.org}
+\date{\today}
+
+\begin{document}
+	
+	\twocolumn[{%
+		\maketitle
+		\vspace{-0.5em}
+		\vspace{0.8em}
+		\rule{\linewidth}{0.4pt}
+		\vspace{1em}
+	}]
+	
+	\section{Equations \& Definitions}
+	
+	\begin{definition}
+		Suppose the following:
+		\begin{align*}
+			l + r &\leq n - 1;\\
+			r &\leq \frac{n - 1}{2}.
+		\end{align*}
+		If and only If. Solving for $r.$
+		\begin{align*}
+			r &\leq \frac{\frac{n - 1}{2} - 4}{2} \leq \frac{n - 1}{2};\\
+			\frac{\frac{n - 1}{2} - 4}{2} &\leq \frac{n - 1}{2}\\
+			\frac{\frac{n - 1}{2} - 5 + n}{4} &\leq 0.
+		\end{align*}
+		Assuming for $n=2.$
+		\begin{align*}
+			\frac{\frac{1}{2} +3}{4} &= \frac{875}{1000}.
+		\end{align*}
+	\end{definition}
+	
+	\begin{definition}
+		If and only If. For:
+		\begin{align*}
+			\sqrt{2}+2&=\sqrt{2} + x;\\
+			2\sqrt{2}+2 &=x;\\
+			2(\sqrt{2} + 1) &= x;
+		\end{align*}
+		If and only If. We can solve for $l=x=2(\sqrt{2} + 1).$
+		\begin{align*}
+			l + r &\leq n - 1;\\
+			2(\sqrt{2} + 1) + r &\leq n - 1.
+		\end{align*}
+		Assuming $r \in \mathbb{R}.$
+		\begin{align*}
+			2(\sqrt{2} + 1) + \frac{\frac{n - 1}{2} - 4}{2}  &\leq \frac{n - 1}{2} + n - 1;\\
+			2(\sqrt{2} + 1) + \frac{\frac{n - 1}{2} - 4}{2} - \frac{n - 1}{2}; &\leq n - 1.
+		\end{align*}
+	\end{definition}
+	
+	\nocite{*}
+	
+	\bibliographystyle{acm}
+	
+\end{document}
