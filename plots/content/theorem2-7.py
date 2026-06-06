@@ -92,7 +92,7 @@ if root_s is not None:
 ax.set_title("Sum form", fontsize=11)
 ax.set_xlabel("$x$")
 ax.set_ylabel("Value")
-ax.set_ylim(-20, 60)
+ax.set_ylim(-2000, 6000)
 ax.legend(fontsize=8)
 ax.grid(True, alpha=0.35)
 
@@ -109,7 +109,7 @@ if root_p is not None:
 ax.set_title("Product form", fontsize=11)
 ax.set_xlabel("$x$")
 ax.set_ylabel("Value")
-ax.set_ylim(-5, 20)
+ax.set_ylim(-5000, 2000)
 ax.legend(fontsize=8)
 ax.grid(True, alpha=0.35)
 
