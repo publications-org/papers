@@ -126,7 +126,7 @@
 	\vspace{-1.5em}%
 	\large\textbf{Glossarium Aequationum.}%
 }
-\author{By A. E. Mahrouss\\amlal@nekernel.org}
+\author{By A. E. Mahrouss}
 \date{\today}
 
 %% ============================================================
@@ -177,7 +177,7 @@ By Hartley's Law, the weight of $S$ over its frequency $F$, may be equal of the 
 \end{theorem}
 
 \begin{theorem}
-	Thus let the following based on [2.2]:
+	Thus let the following per Theorem 2.2:
 	\begin{align*}
 		O' + (\lambda + \mu + x)^{n-2} &= (\lambda + \mu + x)^{n-1} + (\lambda + \mu + x)^{n},\\
 		\frac{O'}{(\lambda + \mu + x)^{n-2}} &= \frac{(\lambda + \mu + x)^{n-1} + (\lambda + \mu + x)^{n}}{(\lambda + \mu + x)^{n-2}}, \quad O' \neq 0.
@@ -209,19 +209,19 @@ $\forall \mu(n, p)$ There exists:
 \begin{theorem}
 	Let for any real $\forall x \in \mathbb{R}.$ If: $x \neq 0.$ Then:
 	\begin{align*}
-		E(x) &= \frac{\gamma(x)}{\delta(x) + \lambda(x)}, \quad \gamma(x) \neq 0.
+		E(x) &= \frac{\gamma(x)}{\delta(x) + \lambda(x)}, \quad E(x) \in \mathbb{R}, \quad \gamma(x) \neq 0.
 	\end{align*}
-	Therefore, based on $E(x)$:
+	Therefore, based on the definition $E(x)$ in $\mathbb{R}.$:
 	\begin{align*}
 		P &= \prod_{n=1}^{3}\rho(x) x^{n} + \int E(x) dx,\\
 		P &= \prod_{n=1}^{3}\rho(x) x^{n} + \int \frac{\gamma(x)}{\delta(x) + \lambda(x)} dx,\\
 		P &= \int \frac{\gamma(x)}{\delta(x) + \lambda(x)} dx + x^{n} \rho(x)^{3}, \quad P(x) \neq 0.
 	\end{align*}
-	Separately, let the followin $\forall x, n \in \mathbb{R}$:
+	Separately, let the following for $\forall x, n \in \mathbb{R}$:
 	\begin{align*}
 		\prod_{n=1}^{3}\rho(x) x^{n} + \int \frac{\gamma(x)}{\delta(x) + \lambda(x)} dx \in \mathbb{R}.
 	\end{align*}
-	Admits a solution in $\forall s = P' \in \mathbb{R},$ of the following:
+	There exists a solution in $\forall s = P' \in \mathbb{R},$ of the following:
 	\begin{align*}
 		P' &= \prod_{n=1}^{3}\rho(x) x^{n} + \int \frac{\gamma(x)}{\delta(x) + \lambda(x)} dx, \quad P' \neq 0.
 	\end{align*}
@@ -419,7 +419,7 @@ $\forall \mu(n, p)$ There exists:
 		K &= \prod_{n=3}^{\pi} \cos(\frac{\pi}{n}),\\
 		&= \cos(\frac{\pi}{n-1}) \cos(\frac{\pi}{n}) \dots, \forall K \in \mathbb{R}.
 	\end{align*}
-	And. For an equation of the previous result of [2.19]:
+	And. For an equation of the previous result per Theorem 2.19:
 	\begin{align*}
 		A &= \pm z + \frac{\sum_{k=1}^{\infty} \frac{\gamma(a, qk)}{k} + \sum_{k=1}^{\infty}\frac{k}{\gamma(a, qk)}}{\pm z},\\
 		\pm z^2 &= \sum_{k=1}^{\infty} \frac{\gamma(a, qk)}{k} + \sum_{k=1}^{\infty}\frac{k}{\gamma(a, qk)},\\
@@ -450,12 +450,12 @@ $\forall \mu(n, p)$ There exists:
 \begin{theorem}
 	Let a general theorem of the following for $\forall x \in \mathbb{R}$ be:
 	\begin{align*}
-		B &= 2(\sqrt{2} + 1) + \frac{\frac{n - 1}{2} - 4}{2} - \frac{n - 1}{2},\\
+		\mathrm{B} &= 2(\sqrt{2} + 1) + \frac{\frac{n - 1}{2} - 4}{2} - \frac{n - 1}{2},\\
 		&= \frac{\frac{\frac{n - 1}{2} - 4}{2} - \frac{n - 1}{2}}{2(\sqrt{2} + 1)}.
 	\end{align*}
-	substituting $\frac{n - 1}{2}$ with $\phi$:
+	Then. Substituting $\frac{n - 1}{2}=\phi, \quad \forall \phi \in \mathbb{R}.$:
 	\begin{align*}
-		C &= 2(\sqrt{2} + 1) + \frac{\frac{n - 1}{2} - 4}{2} - \phi,\\
+		\mathrm{C} &= 2(\sqrt{2} + 1) + \frac{\frac{n - 1}{2} - 4}{2} - \phi,\\
 		&= \frac{\frac{\phi - 4}{2} - \phi}{2(\sqrt{2} + 1)},\\
 		\mathrm{C}' &= \frac{\phi - 4}{2} - \phi.
 	\end{align*}
@@ -584,23 +584,21 @@ $\forall \mu(n, p)$ There exists:
 
 \subsection{Final Remarks:}
 
-\lettrine[lines=2, lhang=0.1, loversize=0.2]{T}he nine pages of theorems now comes to an end, stating them here was the first step to then develop a framework later in the 'AWB'. We will next plot and analyse our results based of our theorems and definitions.
+\lettrine[lines=2, lhang=0.1, loversize=0.2]{T}he nine pages of theorems now comes to an end, stating them here was the first step to then develop a framework later in the 'AWB' book. We will next plot and analyse our results based of our theorems and definitions.
 
 \subsection{Moving Forward:}
 \lettrine[lines=2, lhang=0.1, loversize=0.2]{W}e will now proceed to plot and analyze the following theorems to analyze their convergence and general behavior.
 
-\section{Plotting and Analysis of previous theorems:}
+\section{Plotting and Analysis:}
 \lettrine[lines=2, lhang=0.1, loversize=0.2]{T}he previous section, which establishes 31 definitions and theorems. Will now serve as a basis for plotting.\\
-The following plot were written using 'python3' using the 'matplotlib' library.
+Which in the next chapter 'On Theorems' will be used to plot some of our theorems. But before, let us impose the following remark in $\mathbb{R}.$:
 
 \begin{remark}
-	Per [2.31] for $x = \frac{ln(\pi^\mathrm{e})!}{\pi}, \quad \forall x \in \mathbb{R}.$ We have the following:
+	Per Theorem 2.31, for $x = \frac{ln(\pi^\mathrm{e})!}{\pi}, \quad \forall x \in \mathbb{R}.$ We have the following:
 	\begin{equation}
 		\frac{ln(\pi^\mathrm{e})!}{\pi} = \frac{(\mathrm{e} \log(\pi))!}{\pi}, x \neq 0.
 	\end{equation}
 \end{remark}
-
-Which in the next chapter 'On Theorems' will be used to plot some of our theorems.
 
 \nocite{*}
 
