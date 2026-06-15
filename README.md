@@ -7,7 +7,7 @@ Repository is organized in the following:
 * On Glossary.
 * On Proofs.
 * On Theorems.
-- A Short Reference on Linear Algebra.
+* A Short Reference on Linear Algebra.
 * On Distributed Systems.
 * On Plots.
 
