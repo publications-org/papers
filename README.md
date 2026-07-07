@@ -20,10 +20,11 @@ The repository is currently organized as stated below:
 * https://github.com/publications-org/snippets
 * https://github.com/open-cpp-libraries/src
 
-## How to access the documents:
+## How to access the papers/notes:
 
 Simply do the following:
-`https://amlal.nekernel.org/poi/<document_name_without_ext>`.
+
+* `https://amlal.nekernel.org/poi/<document_name_without_ext>`.
 
 ## Credits:
 

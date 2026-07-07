@@ -9,5 +9,5 @@
 .(sub 2, 2)
 .(ask "Is the sky blue?")
 .(ask "Is the Littlewood-Offord problem covering the area of a circle")
-.(ask "Why is the Apery's Constant proven irrational, but not yet transcedentalal?")
+.(ask "Why is the Apery's Constant proven irrational, but not yet transcendental?")
 .(end 2, 1) (* 1 proofreader still listening for future sequences *)
