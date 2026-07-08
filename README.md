@@ -6,7 +6,7 @@ The TeX sources of Amlal El Mahrouss's papers, citations and proofs included.
 
 ## Contents:
 
-The repository is currently organized as stated below:
+The project is currently organized with several categories below:
 
 * On Glossary.
 * On Proofs.
