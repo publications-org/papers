@@ -1,5 +1,7 @@
 # Publications @ amlal.nekernel.org.
 
+By Amlal El Mahrouss (A. E. Mahrouss)
+
 The TeX sources of Amlal El Mahrouss's papers, citations and proofs included.
 
 ## Contents:
