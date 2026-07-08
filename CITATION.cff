@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: Amlal El Mahrouss's Papers.
-message: Amlal's papers and al from amlal.nekernel.org.
+message: Amlal El Mahrouss's papers and al. From amlal.nekernel.org.
 type: software
 authors:
   - given-names: Amlal
@@ -9,15 +9,13 @@ authors:
 identifiers:
   - type: url
     value: 'https://amlal.nekernel.org'
-    description: Amlal's Papers.
+    description: Amlal El Mahrouss's Papers.
 repository-code: 'https://github.com/publications-org/papers'
 url: 'https://amlal.nekernel.org'
 abstract: >-
-  Working Papers by Amlal El Mahrouss.
+  Working Papers/Notes by Amlal El Mahrouss.
 keywords:
   - cs
-  - it
-  - book
   - physics
-  - math
+  - mathematics
 license: CC-BY-SA-4.0
