@@ -1,5 +1,7 @@
 # Publications @ amlal.nekernel.org.
 
+![GitHub Repo Stars](https://img.shields.io/github/stars/publications-org/pub?style=for-the-badge)
+
 By Amlal El Mahrouss (A. E. Mahrouss)
 
 The TeX sources of Amlal El Mahrouss's papers, citations and proofs included.
