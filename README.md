@@ -1,7 +1,5 @@
 # Publications @ amlal.nekernel.org.
 
-Personal research notes.
-
 ![GitHub Repo Stars](https://img.shields.io/github/stars/publications-org/pub?style=for-the-badge)
 
 By Amlal El Mahrouss (A. E. Mahrouss)
