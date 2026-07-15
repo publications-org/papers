@@ -141,8 +141,8 @@
 \section{Synopsis:}
 %% ============================================================
 
-\lettrine[lines=2, lhang=0.1, loversize=0.2]{T}HE document provides a reference for theorems, definitions, and equations for the purpose of being reusable. References are cited at the bottom of each of the note where credit is due.\\
-One caveat: $y(x), \lambda(x), \rho(x)$ are defined generically in this note.\\However a proof will have the concrete function attributed to them.
+\lettrine[lines=2, lhang=0.1, loversize=0.2]{T}HIS note provides a reference for theorems, definitions, and equations for the purpose of being reusable. References are cited at the bottom of each of the note where credit is due.\\
+One caveat: $y(x), \lambda(x), \rho(x)$ are defined generically in this note.\\However a proof will have the concrete function attributed to them. Moreover, the note acts as an active research note with new definitions, and theorems added regularly.
 
 %% ============================================================
 \section{Observations:}
@@ -163,7 +163,7 @@ By Hartley's Law, the weight of $S$ over its frequency $F$, may be equal of the 
 \begin{theorem}
 	Let for any variables $\forall a, \mu, \lambda, b, c \in \mathbb{R}$.:
 	\begin{align*}
-		\mathcal{V} &= \int (\lambda + \mu)\sqrt{ax^2 + bx  +c} \operatorname{dx}.
+		\mathcal{V} &= \int (\lambda + \mu)\sqrt{ax^2 + bx  +c} dx.
 	\end{align*}
 	We define three equations for $\forall \mathcal{V}', \operatorname{d}(\lambda + \mu) \in \mathbb{R}.$:
 	\begin{align*}
@@ -187,11 +187,11 @@ By Hartley's Law, the weight of $S$ over its frequency $F$, may be equal of the 
 \begin{corollary}
 	Per Theorem 2.2, we have the following:
 	\begin{align*}
-		\mathcal{V} &= \int (\lambda + \mu)\sqrt{ax^2 + bx  +c} \operatorname{dx}.
+		\mathcal{V} &= \int (\lambda + \mu)\sqrt{ax^2 + bx + c} dx.
 	\end{align*}
 	One way to rewrite theorem 2.2, is $\forall a, \mu, \lambda, b, c \in \mathbb{R}$.:
 	\begin{align*}
-		\frac{\mathcal{V}}{(\lambda + \mu)} &= \int \sqrt{ax^2 + bx  +c} \operatorname{dx}.
+		\frac{\mathcal{V}}{(\lambda + \mu)} &= \int \sqrt{ax^2 + bx + c} dx.
 	\end{align*}
 	In order to obtain a ratio from the integral of roots.
 \end{corollary}
@@ -582,13 +582,13 @@ By Hartley's Law, the weight of $S$ over its frequency $F$, may be equal of the 
 	\begin{align*}
 		\frac{\ln(\pi^\mathrm{e})!}{\pi} &= (\mathrm{e} \log(\pi))!.
 	\end{align*}
-	And for $\mathrm{H} \in \mathbb{R}.$:
+	And for $\mathcal{H} \in \mathbb{R}.$:
 	\begin{align*}
-		\mathrm{H} &\coloneq \frac{\ln(\pi^\mathrm{e})!}{\pi} + \frac{(\mathrm{e} \log(\pi))!}{\pi}, \quad \forall \mathrm{H} \in \mathbb{R}.
+		\mathcal{H} &\coloneq \frac{\ln(\pi^\mathrm{e})!}{\pi} + \frac{(\mathrm{e} \log(\pi))!}{\pi}, \quad \forall \mathcal{H} \in \mathbb{R}.
 	\end{align*}
 	From the following for $x = \frac{\ln(\pi^\mathrm{e})!}{\pi}, \quad \forall x \in \mathbb{R}.$:
 	\begin{align*}
-	\mathrm{H} &\coloneq \frac{\ln(\pi^\mathrm{e})!}{\pi} + \frac{(\mathrm{e} \log(\pi))!}{\pi}, \quad \forall \mathrm{H} \in \mathbb{R}.
+	\mathcal{H} &\coloneq \frac{\ln(\pi^\mathrm{e})!}{\pi} + \frac{(\mathrm{e} \log(\pi))!}{\pi}, \quad \forall \mathcal{H} \in \mathbb{R}.
 	\end{align*}
 	We then would establish another identity $\forall x \in \mathbb{R}.$:
 	\begin{align*}
@@ -626,12 +626,28 @@ Which in the next chapter 'On Theorems' will be used to plot some of our theorem
 \end{corollary}
 
 \begin{corollary}
-	For each index $n$ in a numerical sequence $x, p, n \in \mathbb{R},$ defined as following:
+	For each index $n$ in a numerical sequence $x, p, n \in \mathbb{R},$ it is defined as the following:
 	\begin{align*}
 		x_n &= \frac{p}{n+1}, \quad n \neq 0.
 	\end{align*}
 	There exists by the property of parity if and only if $n+1 = 2p + 1$, then the sequence contains  odd indices.
 \end{corollary}
+
+\begin{definition}
+	Let us define a sequence of tensor products for $\forall \mathcal{X}_n, \mathcal{Y}_n \in \mathbb{R}$:
+	\begin{align*}
+		\mathcal{Z}_n &= \sum_{n=0}^{\infty} (\mathcal{X}_n \otimes \mathcal{Y}_{n}).
+	\end{align*}
+	Where $\mathcal{Z}$ is a tensor product of the sequences $\mathcal{X}_n$ and $\mathcal{Y}_n$ from a riemannian plane.
+\end{definition}
+
+\begin{definition}
+	Let us define a double integral for $\forall x, y \in \mathbb{R}$ with a function $f(x, y)$ over a domain $D$ in a xy-plane:
+	\begin{align*}
+		\mathcal{I}_n &= \iint_{D} f(x, y) \otimes \mathcal{Z}_n \quad dx.dy.
+	\end{align*}
+	Where $\mathcal{I}_n$ is a double integral of the function $f(x, y)$ over the domain $D$ in the xy-plane.
+\end{definition}
 
 \section{Going Forward:}
 
