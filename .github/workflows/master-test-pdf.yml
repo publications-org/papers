@@ -13,6 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Build CI Pub - Test
+    - name: Build CI Pub - Install LaTeX
+      run: sudo apt install texlive
+    - name: Build CI Pub - Test Makefile
       run: make all
-
+    - name: Build CI Pub - Ack paper
+      run: make ack

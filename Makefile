@@ -8,6 +8,10 @@
 all:
 	@echo "Please specify a target: on_al, ..."
 
+.PHONY: ack
+ack:
+	@latex p.tex
+
 .PHONY: on_al
 on_al:
 	@latex on_al/content/p.tex
