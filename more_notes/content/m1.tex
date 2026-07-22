@@ -182,7 +182,7 @@ Going forward on this note, we shall note the following observations for our fut
 
 \begin{remark}
 \label{rem:math-special-case}
-	One may separately note the following for a analytical two dimensional space $\mathcal{D}$:
+	One may separately note the following for a analytical two dimensional space $\mathcal{D}$ for the function $\mathcal{T}$ and tensors $\mathcal{X}$:
 	\begin{equation}
 		\mathcal{T}_0 + \mathcal{R}_{t} = \iint_{\mathcal{D}} \mathcal{T}(\mathcal{X}_{x}, \mathcal{X}_{y})_{t} \, dx \land dy.
 	\end{equation}
@@ -198,12 +198,13 @@ Going forward on this note, we shall note the following observations for our fut
 	\begin{equation}
 		\mathcal{T}_{n} = \iint_{\mathcal{D}} \mathcal{T}(\mathcal{X}_{x+n}, \mathcal{X}_{y+n})_{t+x} \, dx \land dy - \mathcal{R}_{t+n}.
 	\end{equation}
+	Where $\forall x, y \in \mathbb{R}$.
 \end{remark}
 
 \begin{corollary}
 	$\mathcal{T}_{n}'$ is defined as:
 	\begin{equation}
-		\mathcal{T}_{n} =\operatorname{Trans}_{t|x}(\iint_{\mathcal{D}} \mathcal{T}(\mathcal{X}_{x+n}, \mathcal{X}_{y+n})_{t+x} \, dx \land dy - \mathcal{R}_{t+n}).
+		\mathcal{T}_{n}' =\operatorname{Trans}_{t|x}(\iint_{\mathcal{D}} \mathcal{T}(\mathcal{X}_{x+n}, \mathcal{X}_{y+n})_{t+x} \, dx \land dy - \mathcal{R}_{t+n}).
 	\end{equation}
 	Per Remark \ref{rem:math-special-case} where $t|x$ is to be read as "time $t$ over simulation variable $x$".
 \end{corollary}
